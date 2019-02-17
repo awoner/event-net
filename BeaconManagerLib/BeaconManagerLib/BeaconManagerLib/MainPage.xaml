@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BeaconManagerLib"
+             x:Class="BeaconManagerLib.MainPage"
+             BackgroundColor="#424242" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="300">
+         <!--Place new controls here-->
+        <Entry x:Name ="nameEntry" HorizontalOptions="FillAndExpand" Placeholder="Name" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+        <Entry x:Name ="emailEntry" HorizontalOptions="FillAndExpand" Placeholder="Email" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+        <Entry x:Name ="passwordEntry" HorizontalOptions="FillAndExpand" Placeholder="Password" IsPassword="True" TextColor="LightGray" PlaceholderColor="LightGray"></Entry>
+        <Entry x:Name ="bioEntry" HorizontalOptions="FillAndExpand" Placeholder="Bio" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+        <Button x:Name="SignInButton" Text="Sign Up" BackgroundColor="#00b0ff" Clicked="SignUpButton_Clicked" TextColor="GhostWhite" CornerRadius="20"></Button>
+        <Label Text="Are you registered yet? Please, sign in!" HorizontalOptions="CenterAndExpand" TextColor="LightGray"></Label>
+        <Button x:Name="SignUpButton" Text="Sign In" Clicked="SignInButton_Clicked" Margin="60,0,60,0" BackgroundColor="#6d6d6d" TextColor="GhostWhite" CornerRadius="20"></Button>
+    </StackLayout>
+
+</ContentPage>

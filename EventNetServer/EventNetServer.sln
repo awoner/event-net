@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventNetServer", "EventNetServer\EventNetServer.csproj", "{F5AB732B-15AC-47C3-BCFD-98609C829DBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5AB732B-15AC-47C3-BCFD-98609C829DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AB732B-15AC-47C3-BCFD-98609C829DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AB732B-15AC-47C3-BCFD-98609C829DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AB732B-15AC-47C3-BCFD-98609C829DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20E9D8AE-123B-41F3-8947-6A6ABC142599}
+	EndGlobalSection
+EndGlobal

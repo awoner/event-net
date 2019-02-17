@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeaconManagerLib.SignIn"
+             BackgroundColor="#424242" Title="Sign In">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="300">
+            <Entry x:Name ="nameEntry"  HorizontalOptions="FillAndExpand" Placeholder="Name" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+            <Entry x:Name ="emailEntry" HorizontalOptions="FillAndExpand" Placeholder="Email" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+            <Entry x:Name ="passwordEntry"  HorizontalOptions="FillAndExpand" Placeholder="Password" IsPassword="True" PlaceholderColor="LightGray" TextColor="LightGray"></Entry>
+            <Button x:Name="SignInButton" Text="Sign In" BackgroundColor="#00b0ff" Clicked="SignIn_Clicked" TextColor="GhostWhite" CornerRadius="20"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

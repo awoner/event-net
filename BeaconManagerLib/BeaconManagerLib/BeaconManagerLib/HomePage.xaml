@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeaconManagerLib.HomePage"
+             BackgroundColor="#424242">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <StackLayout BackgroundColor="#00b0ff" Padding="20">
+                <Label x:Name="userInfo" TextColor="GhostWhite" Text="None" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            </StackLayout>
+            
+            <!--<Button x:Name="findButton" TextColor="LightGray" Text="None" Clicked="findButton_Clicked"/>-->
+            <Label x:Name="eventInfo" TextColor="LightGray"></Label>
+            <!--<ListView x:Name="usersList" BackgroundColor="Red">
+            </ListView>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
